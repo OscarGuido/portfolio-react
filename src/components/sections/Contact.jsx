@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-gray-400 text-4xl md:text-5xl font-bold mb-4 brand-logo">
             Oscar Guido
           </h2>
           <p className="text-gray-400 mb-8">

@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "RockSalt";
+  src: url(/fonts/Rock_Salt/RockSalt-Regular.ttf) format("truetype");
+}
+
 @layer base {
   :root {
     --text: #6b6375;
@@ -17,6 +22,7 @@
     --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
     --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
     --mono: ui-monospace, Consolas, monospace;
+    --display: "RockSalt", serif;
 
     font: 18px/145% var(--sans);
     letter-spacing: 0.18px;
@@ -121,5 +127,9 @@
     line-height: 135%;
     padding: 4px 8px;
     background: var(--code-bg);
+  }
+
+  .brand-logo {
+    font-family: var(--display);
   }
 }

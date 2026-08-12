@@ -32,7 +32,7 @@ export default function Header() {
     >
       <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#banner" className="text-2xl font-bold text-gray-900 dark:text-white">
+        <a href="#banner" className="text-2xl font-bold text-gray-900 dark:text-white brand-logo">
           Oscar Guido
         </a>
 

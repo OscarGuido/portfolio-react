@@ -28,7 +28,7 @@ export default function Banner() {
                 href="#"
                 className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white font-bold py-3 px-8 rounded-lg transition-colors"
               >
-                Get CV
+                Get Resume
               </a>
             </div>
           </div>
