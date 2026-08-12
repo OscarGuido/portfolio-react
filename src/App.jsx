@@ -1,10 +1,8 @@
 import Header from './components/layout/Header'
 import Banner from './components/sections/Banner'
-import Education from './components/sections/Education'
 import Experience from './components/sections/Experience'
-import Certifications from './components/sections/Certifications'
 import Projects from './components/sections/Projects'
-import Hobbies from './components/sections/Hobbies'
+import Skills from './components/sections/Skills'
 import Contact from './components/sections/Contact'
 import './App.css'
 
@@ -14,11 +12,9 @@ function App() {
       <Header />
       <main className="pt-16">
         <Banner />
-        <Education />
         <Experience />
-        <Certifications />
         <Projects />
-        <Hobbies />
+        <Skills />
         <Contact />
       </main>
     </div>

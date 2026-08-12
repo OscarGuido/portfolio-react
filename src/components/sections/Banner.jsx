@@ -11,9 +11,12 @@ export default function Banner() {
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
               I am Oscar
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 dark:text-purple-400 mb-8">
-              Computer Engineer
+            <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 dark:text-purple-400 mb-2">
+              Backend Software Engineer
             </h2>
+            <p className="text-gray-600 dark:text-gray-400 text-lg mb-8">
+              NestJS • TypeScript • PostgreSQL • Event-Driven Architecture
+            </p>
             <div className="flex gap-4 flex-wrap">
               <a
                 href="#contact"

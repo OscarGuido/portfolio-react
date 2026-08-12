@@ -1,33 +1,33 @@
 export const experiences = [
   {
     id: 1,
-    title: "Mobile Developer",
-    company: "Everhard Inmobiliaria",
-    type: "Internship",
-    period: "August 2020 - January 2021",
-    image: "/portfolio/img/certifications/flutter.png",
-    description: "Responsible for developing mobile applications and backend services.",
+    title: "Backend Software Engineer",
+    company: "Solvento",
+    type: "Full-time",
+    period: "January 2022 - June 2026",
+    image: "/img/certifications/python.png",
+    description: "Built scalable REST APIs and event-driven microservices in Fintech. Designed and optimized architecture across Ruby monoliths and NestJS microservices, achieving 95%+ test coverage.",
     responsibilities: [
-      "Creating MySQL databases",
-      "Developing backend with PHP",
-      "Developing Android apps using Android Studio and Java",
-      "Developing multiplatform mobile applications with Flutter"
+      "Designed and optimized API endpoints (Ruby Grape, NestJS/TypeScript) across microservices and monoliths in Fintech environment",
+      "Built event-driven, asynchronous processing on AWS (Lambda, SQS, S3) and Google Cloud (Cloud Tasks, Pub/Sub, GCS) including invoice pipeline with ZIP/XML parsing and SAT validation",
+      "Strengthened reliability at scale: idempotent API requests via Redis caching to prevent duplicate transactions, biometric KYC onboarding (Incode) to mitigate fraud risk",
+      "Applied AI-Driven Development (Cursor, Claude, SDD) reducing delivery cycles by 50% and automated support workflows with Python"
     ],
-    technologies: ["PHP", "MySQL", "Android Studio", "Java", "Flutter"]
+    technologies: ["NestJS", "TypeScript", "Ruby", "PostgreSQL", "AWS Lambda", "SQS", "Google Cloud", "Redis", "Python"]
   },
   {
     id: 2,
-    title: "Web Developer",
-    company: "Freelance",
-    type: "Self-employed",
-    period: "August 2020 - Present",
-    image: "/portfolio/img/FIEscudo.png",
-    description: "Worked on various web development projects for different clients.",
+    title: "Software Developer",
+    company: "Coordinación del Sistema Penitenciario de Michoacán",
+    type: "Full-time",
+    period: "May 2021 - September 2021",
+    image: "/img/FIEscudo.png",
+    description: "Developed cross-platform mobile application and secure REST API for centralized data management in government operations.",
     responsibilities: [
-      "Static web page development with HTML, CSS and JS",
-      "Frontend development with HTML, CSS, JS and Bootstrap",
-      "Creating analytical applications with QlikSense and SQL Server"
+      "Designed and deployed from scratch a cross-platform mobile application (iOS & Android) using Flutter to centralize critical data queries",
+      "Architected secure REST API endpoints using Django and PostgreSQL ensuring real-time data integrity and high availability",
+      "Provided preventive and corrective maintenance to legacy internal systems based on CodeIgniter"
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "QlikSense", "SQL Server"]
+    technologies: ["Flutter", "Django", "PostgreSQL", "CodeIgniter", "iOS", "Android"]
   }
 ];

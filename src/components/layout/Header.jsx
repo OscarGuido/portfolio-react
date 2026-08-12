@@ -16,11 +16,9 @@ export default function Header() {
 
   const navLinks = [
     { href: '#banner', label: 'Home' },
-    { href: '#education', label: 'Education' },
     { href: '#experience', label: 'Experience' },
-    { href: '#certifications', label: 'Certifications' },
     { href: '#projects', label: 'Projects' },
-    { href: '#hobbies', label: 'Hobbies' },
+    { href: '#skills', label: 'Skills' },
     { href: '#contact', label: 'Contact' },
   ];
 

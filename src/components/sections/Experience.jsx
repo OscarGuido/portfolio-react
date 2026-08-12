@@ -24,7 +24,7 @@ export default function Experience() {
             Experience
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            I have experience developing backend with PHP, creating databases, frontend development, and mobile applications.
+            Designing scalable backend systems that power Fintech. Expert in event-driven architecture, async processing, and 95%+ test coverage.
           </p>
         </div>
 
