@@ -5,7 +5,7 @@ export const experiences = [
     company: "Solvento",
     type: "Full-time",
     period: "January 2022 - June 2026",
-    image: "/img/certifications/python.png",
+    image: "/portfolio/img/experience/solvento-logo.png",
     description: "Built scalable REST APIs and event-driven microservices in Fintech. Designed and optimized architecture across Ruby monoliths and NestJS microservices, achieving 95%+ test coverage.",
     responsibilities: [
       "Designed and optimized API endpoints (Ruby Grape, NestJS/TypeScript) across microservices and monoliths in Fintech environment",
@@ -21,7 +21,7 @@ export const experiences = [
     company: "Coordinación del Sistema Penitenciario de Michoacán",
     type: "Full-time",
     period: "May 2021 - September 2021",
-    image: "/img/FIEscudo.png",
+    image: "/portfolio/img/experience/cspemo.svg",
     description: "Developed cross-platform mobile application and secure REST API for centralized data management in government operations.",
     responsibilities: [
       "Designed and deployed from scratch a cross-platform mobile application (iOS & Android) using Flutter to centralize critical data queries",
