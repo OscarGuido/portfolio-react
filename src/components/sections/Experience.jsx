@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import { experiences } from '../../data/experience';
 
 export default function Experience() {
@@ -30,30 +30,65 @@ export default function Experience() {
 
         {/* Carousel */}
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-6">
-          <div className="grid md:grid-cols-3 gap-6 items-center">
-            {/* Image */}
-            <div className="flex justify-center">
+          {/* Header - Full Width */}
+          <div className="mb-8 pb-6 border-b border-gray-200 dark:border-gray-700">
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
+              {current.title}
+            </h3>
+            <p className="text-purple-600 dark:text-purple-400 font-semibold mb-1">
+              <a
+              href={current.companyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {current.company}
+            </a>
+            </p>
+            <p className="text-gray-600 dark:text-gray-400 text-sm">
+              {current.type} • {current.period}
+            </p>
+          </div>
+
+          {/* Content - Two Columns */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Left Column - Image & Technologies */}
+            <div className="flex flex-col items-center">
               <img
                 src={current.image}
                 alt={current.company}
-                className="w-32 h-32 object-contain"
+                className="w-32 h-32 object-contain mb-6"
               />
+              <a
+                href={current.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg transition-colors mb-6 font-medium text-sm"
+              >
+                Visit website
+              </a>
+              <div className="w-full">
+                <p className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
+                  Technologies Used
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {current.technologies.map((tech) => (
+                    <span
+                      key={tech}
+                      className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-xs font-medium"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
 
-            {/* Content */}
+            {/* Right Column - Description & Responsibilities */}
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
-                {current.title}
-              </h3>
-              <p className="text-purple-600 dark:text-purple-400 font-semibold mb-1">
-                {current.company}
-              </p>
-              <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
-                {current.type} • {current.period}
-              </p>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
                 {current.description}
               </p>
+
               <div>
                 <p className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
                   Key Responsibilities:
@@ -63,23 +98,6 @@ export default function Experience() {
                     <li key={idx}>{resp}</li>
                   ))}
                 </ul>
-              </div>
-            </div>
-
-            {/* Technologies */}
-            <div>
-              <p className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
-                Technologies Used
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {current.technologies.map((tech) => (
-                  <span
-                    key={tech}
-                    className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-3 py-1 rounded-full text-xs font-medium"
-                  >
-                    {tech}
-                  </span>
-                ))}
               </div>
             </div>
           </div>
