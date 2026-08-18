@@ -12,10 +12,10 @@ export default function Banner() {
               I am Oscar
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 dark:text-purple-400 mb-2">
-              Backend Software Engineer
+              Software Engineer
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg mb-8">
-              NestJS • TypeScript • PostgreSQL • Event-Driven Architecture
+              NestJS • TypeScript • PostgreSQL • Ruby • Python
             </p>
             <div className="flex gap-4 flex-wrap justify-center">
               <a
@@ -37,7 +37,7 @@ export default function Banner() {
           {/* Right side - Image placeholder */}
           <div className="flex justify-center">
             <img
-              src="/portfolio/img/banner/me.jpeg"
+              src="/portfolio/img/banner/oscarguido.jpg"
               alt="Oscar"
               className="w-64 h-64 rounded-lg shadow-lg object-cover"
             />

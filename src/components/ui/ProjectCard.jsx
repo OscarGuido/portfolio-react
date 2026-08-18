@@ -28,8 +28,8 @@ export default function ProjectCard({ project }) {
         </p>
 
         {/* Expandable section */}
-        <div className={`overflow-hidden transition-all duration-300 ${
-          isExpanded ? 'max-h-96' : 'max-h-0'
+        <div className={`transition-all duration-300 ${
+          isExpanded ? 'max-h-[500px] overflow-y-auto' : 'max-h-0 overflow-hidden'
         }`}>
           <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
             <h4 className="font-semibold text-gray-900 dark:text-white mb-3">

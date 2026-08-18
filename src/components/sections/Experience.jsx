@@ -17,14 +17,14 @@ export default function Experience() {
 
   return (
     <section id="experience" className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-full mx-auto">
         {/* Title */}
         <div className="mb-12 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Experience
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Designing scalable backend systems that power Fintech. Expert in event-driven architecture, async processing, and 95%+ test coverage.
+          <p className="text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
+            Software Engineer with over 4 years of experience building REST APIs and event-driven microservices in Fintech, logistics, and government sectors. Specialized in NestJS/TypeScript, Ruby, PostgreSQL, and cloud platforms (AWS, GCP). Experienced in scalable architectures, asynchronous processing, and high-coverage testing. Proficient in modern AI-assisted engineering workflows, applying Spec-Driven Development (SDD) with Cursor and Claude Code.
           </p>
         </div>
 

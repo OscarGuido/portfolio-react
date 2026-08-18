@@ -1,18 +1,18 @@
 export const skills = {
   backend: {
     title: "Backend",
-    items: ["NestJS", "TypeScript", "Node.js", "Python", "Ruby"]
+    items: ["NestJS", "TypeScript", "Node.js", "Python", "Ruby", "PostgreSQL", "Redis"]
   },
-  databases: {
-    title: "Databases & Queues",
-    items: ["PostgreSQL", "Redis", "AWS SQS"]
+  ai: {
+    title: "AI",
+    items: ["Spec-Driven Development", "Multi Agent Orchestration", "Cursor", "Claude Code"]
   },
   architecture: {
     title: "Architecture",
-    items: ["Microservices", "Event-Driven Architecture", "Monoliths", "REST APIs"]
+    items: [ "REST APIs", "Microservices", "Monoliths", "Event-Driven Architecture"]
   },
   infrastructure: {
     title: "Infrastructure & DevOps",
-    items: ["Docker", "AWS", "CI/CD", "Linux", "Git"]
+    items: ["Git", "Docker", "AWS", "GCP", "Serverless"]
   }
 };
