@@ -25,7 +25,7 @@ export default function Banner() {
                 Contact Me
               </a>
               <a
-                href="/portfolio/Oscar_Guido_Backend_Engineer_Resume.pdf"
+                href="/Oscar_Guido_Backend_Engineer_Resume.pdf"
                 download="Oscar_Guido_Backend_Engineer_Resume.pdf"
                 className="btn btn-primary bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white font-bold py-3 px-8 rounded-lg transition-colors"
               >
@@ -37,7 +37,7 @@ export default function Banner() {
           {/* Right side - Image placeholder */}
           <div className="flex justify-center">
             <img
-              src="/portfolio/img/banner/oscarguido.jpg"
+              src="/img/banner/oscarguido.jpg"
               alt="Oscar"
               className="w-64 h-64 rounded-lg shadow-lg object-cover"
             />
