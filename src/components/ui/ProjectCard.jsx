@@ -7,11 +7,11 @@ export default function ProjectCard({ project }) {
   return (
     <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
       {/* Image section */}
-      <div className="overflow-hidden h-48 bg-gray-200 dark:bg-gray-800">
+      <div className="overflow-hidden h-48 bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+          className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
         />
       </div>
 
