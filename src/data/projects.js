@@ -45,21 +45,21 @@ export const projects = [
     id: 3,
     title: "Personal Portfolio",
     category: "web",
-    image: "/img/projects/bootstrap.png",
-    summary: "Responsive portfolio developed using Owl Carousel, Magnific Popup and Isotope",
-    stack: "HTML / CSS / JS + Bootstrap",
-    description: "A responsive personal portfolio website showcasing education, experience, certifications, and projects. Features include image galleries, carousel for experience section, and isotope filtering for certifications and projects.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap 4", "Owl Carousel", "Magnific Popup", "Isotope"],
-    link: "https://github.com/OscarGuido/portfolio",
+    image: "/img/projects/react.webp",
+    summary: "Interactive portfolio website built with React, Vite, and Tailwind CSS",
+    stack: "React + Vite + Tailwind CSS",
+    description: "A modern, responsive personal portfolio website built with React to showcase education, experience, certifications, and projects. Features include smooth scrolling, component-based architecture, and optimized performance with Vite. Styled with Tailwind CSS for a clean, professional design.",
+    technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "Responsive Design"],
+    link: "https://github.com/OscarGuido/portfolio-react",
     details: {
       responsibilities: [
-        "Designed responsive layout using Bootstrap grid system",
-        "Implemented Owl Carousel for experience showcase",
-        "Created image galleries with Magnific Popup",
-        "Built isotope filtering for project categorization",
+        "Migrated portfolio from Bootstrap to modern React architecture",
+        "Implemented component-based design system",
+        "Optimized build process using Vite for faster development",
+        "Styled with Tailwind CSS for responsive, accessible UI",
       ],
-      duration: "1 month",
-      status: "Completed (Being migrated to React)"
+      duration: "Ongoing",
+      status: "In Development"
     }
   }
 ];
